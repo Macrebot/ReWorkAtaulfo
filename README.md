@@ -12,12 +12,15 @@ Pequeño mensaje de que o quienes somos, redes sociales, contacto, iframe de twi
 ---------- PIE DE PÁGINA (MIKEL) ----------
 
 <h2>---------- ENCABEZADO (ALEJANDRO) ----------</h2>
+<p></p>
 <br>
 
 <h2>---------- CARRUSEL DE NOTICIAS (DAVID) ----------</h2>
+<p></p>
 <br>
 
 <h2>---------- CUERPO DE PÁGINA (LUIS (JEFE OMNIPOTENTE)) ----------</h2>
+<p></p>
 <br>
 
 <h2>---------- PIE DE PÁGINA (MIKEL) ----------</h2>
