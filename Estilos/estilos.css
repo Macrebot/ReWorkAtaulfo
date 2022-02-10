@@ -2,13 +2,18 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 
 /* Inicio de Sección de Encabezado */
 
 /* Fin de Sección de Encabezado */
 
 /* Inicio de Carrusel de Noticias */
-nav {
+#nav {
     
 }
 /* Fin de Carrusel de Noticias */
@@ -17,11 +22,40 @@ nav {
 
 #body {
     width: 100%;
-    background-image: linear-gradient(#bb7f08, #bbaa08);
 }
 
-#accesoYedra {
+/* Comienzo de los estilos para el navegador izquierdo */
+#navIzq {
+    margin-left: 0;
+    position: fixed;
+    float: left;
+    top: 40%;
+    width: 2%; /* Relleno horizontal de los enlaces */
+    text-align: center;
+}
 
+#navIzq ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navIzq a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 20%; /* Relleno vertical de los enlaces */
+    transition: 0.5s;
+}
+
+#navIzq a:hover {
+    background-color: #aca9a9;
+}
+/* Fin de los estilos para el navegador izquierdo */
+
+#accesoYedra {
+    background-image: linear-gradient(#bb7f08, #bbaa08);
 }
 
 .descripcion {
