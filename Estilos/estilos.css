@@ -15,12 +15,28 @@ nav {
 
 /* Incio de Cuerpo de Página */
 
-body {
-    font-family: Arial;
-    margin: 0px;
-    padding: 0px;
+#body {
+    width: 100%;
+    background-image: linear-gradient(#bb7f08, #bbaa08);
 }
 
+#accesoYedra {
+
+}
+
+.descripcion {
+    float: left;
+}
+
+.enlace {
+    float: right;
+}
+
+#boton {
+    display: block;
+    padding: 10%;
+    background-color: #0f6b6a;
+}
 
 /* Fin de Cuerpo de Página */
 
