@@ -8,11 +8,11 @@ Pagina remasterizada del IES Ataulfo Argenta
 <br>
 
 <h2>---------- CARRUSEL DE NOTICIAS (DAVID) ----------</h2>
-<p></p>
+<p>Carrusel de noticias que van pasando los mas recientes, y una pagina aparte en el encabezado que se llame noticias y que tenga todas las noticias, junto a dos filtros.</p>
 <hr>
 <br>
 
-<h2>---------- CUERPO DE PÁGINA (LUIS (OMNIPOTENTE)) ----------</h2>
+<h2>---------- CUERPO DE PÁGINA (LUIS (TONTO OMNIPOTENTE)) ----------</h2>
 <p></p>
 <hr>
 <br>
