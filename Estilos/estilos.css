@@ -2,21 +2,25 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: Arial;
-    margin: 0px;
-    padding: 0px;
-}
 
 /* Inicio de Sección de Encabezado */
 
 /* Fin de Sección de Encabezado */
 
 /* Inicio de Carrusel de Noticias */
-
+nav {
+    
+}
 /* Fin de Carrusel de Noticias */
 
 /* Incio de Cuerpo de Página */
+
+body {
+    font-family: Arial;
+    margin: 0px;
+    padding: 0px;
+}
+
 
 /* Fin de Cuerpo de Página */
 
