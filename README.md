@@ -12,7 +12,7 @@ Pagina remasterizada del IES Ataulfo Argenta
 <hr>
 <br>
 
-<h2>---------- CUERPO DE PÁGINA (LUIS (TONTO OMNIPOTENTE)) ----------</h2>
+<h2>---------- CUERPO DE PÁGINA (LUIS (OMNIPOTENTE)) ----------</h2>
 <p>Diferentes secciones que lleven a diferentes funciones de la web. Acceso a Yedra, Aula Virtual, enlaces interesantes...</p>
 <hr>
 <br>
