@@ -12,7 +12,7 @@ Pagina remasterizada del IES Ataulfo Argenta
 <hr>
 <br>
 
-<h2>---------- CUERPO DE PÁGINA (LUIS (TONTO OMNIPOTENTE)) ----------</h2>
+<h2>---------- CUERPO DE PÁGINA (LUIS (OMNIPOTENTE)) ----------</h2>
 <p></p>
 <hr>
 <br>
