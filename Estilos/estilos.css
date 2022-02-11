@@ -157,5 +157,43 @@ li .dropdown {
 /* Fin de Cuerpo de Página */
 
 /* Inicio de Pie de Página */
+/* Inicio de Pie de Página */
+#footer{
+    background-color:  #444444; 
+}
 
+#titulocontacto{
+    background-color: #b70909;
+    height: 9%;
+    width: 8%;
+    margin-left: 2%;
+    color: white;
+    font-size: 125%;
+
+}
+
+#tituloinfo{
+    width: 12%;
+    margin-left: 4%;
+    font-size: 100%;
+    color: white;
+    text-decoration: underline;
+
+}
+#infocontacto{
+    margin-left: 6%;
+    font-size:  80%;
+    color: white;
+
+}
+
+#info{
+    margin-left: ;
+    color: white;
+}
+
+#maps{
+    float: ;
+}
+/* Fin de Pie de Página */
 /* Fin de Pie de Página */
