@@ -17,6 +17,8 @@ Pagina remasterizada del IES Ataulfo Argenta
 <p>Utilizar una pequeña barra de navegación lateral a la izquierda en la que estén los íconos para las redes sociales</p>
 <p>FALTAN ÍCONOS PARA EL NAVIZQ</p>
 <p>Diferentes secciones que lleven a diferentes funciones de la web. Acceso a Yedra, Aula Virtual, enlaces interesantes...</p>
+<p>Sección de Cosas en las que destaca el Ataulfo</p>
+<p>Sección de </p>
 <hr>
 <br>
 
