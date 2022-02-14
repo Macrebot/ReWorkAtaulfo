@@ -242,16 +242,22 @@ i {
 /* Fin de Cuerpo de Página */
 
 /* Inicio de Pie de Página */
-/* Inicio de Pie de Página */
 #footer{
-    background-color:  #444444; 
-    position: relative;
+    display: block;
+    margin-top: 4%;
+}
+
+#contacto{
+    display: block;
+    float: left;
+    width: 33%;
+    margin-top: 3%;
 }
 
 #titulocontacto{
     background-color: #b70909;
     height: 9%;
-    width: 8%;
+    width: 23%;
     margin-left: 2%;
     color: white;
     font-size: 125%;
@@ -272,14 +278,62 @@ i {
     color: white;
 
 }
-/* Esto lo he comentado para que no salieran los fallos de ejecución.
+
 #info{
-    margin-left: ;
+    margin-left;
     color: white;
 }
 
 #maps{
-    float: ;
+    display: block;
+    float: left;
+    width: 66%;
 }
-*/
+
+#titulomap{
+    background-color: #b70909;
+    height: 9%;
+    width: 24%;
+    margin-left: 2%;
+    color: white;
+    font-size: 125%;
+}
+
+#listadomenu {
+    float: left;
+     width: 34%;
+}
+#listadomenu li{
+    list-style: none;
+    color: white;
+    font-family: "Lucida Handwriting", "Lucida", Cursive;
+    padding-top: 4%;
+    font-size: 75%;
+    transition: 0.5s;
+    width: 44%;   
+}
+
+#listadomenu li:hover{
+    background-color: red;
+}
+
+#secciones{
+    display: block;
+    margin-top: 3%;
+}
+
+#titulosecciones{
+    background-color: #b70909;
+    height: 9%;
+    width: 23%;
+    margin-left: 33%;
+    color: white;
+    font-size: 125%;
+}
+
+#eliminar {
+    float: right;
+    display: block;
+    width: 33%;
+}
 /* Fin de Pie de Página */
