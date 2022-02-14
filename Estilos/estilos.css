@@ -126,15 +126,17 @@ i {
 
 #body {
     width: 100%;
+    position: relative;
 }
 
 /* Comienzo de los estilos para el navegador izquierdo */
+/*
 #navIzq {
     margin-left: 0;
     position: fixed;
     float: left;
     top: 40%;
-    width: 2%; /* Relleno horizontal de los enlaces */
+    width: 2%; *//* Relleno horizontal de los enlaces *//*
     text-align: center;
 }
 
@@ -149,31 +151,25 @@ i {
     text-decoration: none;
     color: white;
     background-color: black;
-    padding: 20%; /* Relleno vertical de los enlaces */
+    padding: 20%; *//* Relleno vertical de los enlaces *//*
     transition: 0.5s;
 }
 
 #navIzq a:hover {
     background-color: #aca9a9;
 }
-/* Fin de los estilos para el navegador izquierdo */
+*//* Fin de los estilos para el navegador izquierdo */
+
+.seccion {
+  position: relative;
+}
 
 #accesoYedra {
-    background-image: linear-gradient(#bb7f08, #bbaa08);
-}
-
-.descripcion {
-    float: left;
-}
-
-.enlace {
-    float: right;
+  background-color: #e0993b;
 }
 
 #boton {
-    display: block;
-    padding: 10%;
-    background-color: #0f6b6a;
+  background-color: #365aa8;
 }
 
 /* Fin de Cuerpo de Página */
@@ -182,6 +178,7 @@ i {
 /* Inicio de Pie de Página */
 #footer{
     background-color:  #444444; 
+    position: relative;
 }
 
 #titulocontacto{
@@ -208,7 +205,7 @@ i {
     color: white;
 
 }
-
+/* Esto lo he comentado para que no salieran los fallos de ejecución.
 #info{
     margin-left: ;
     color: white;
@@ -217,5 +214,5 @@ i {
 #maps{
     float: ;
 }
-/* Fin de Pie de Página */
+*/
 /* Fin de Pie de Página */
