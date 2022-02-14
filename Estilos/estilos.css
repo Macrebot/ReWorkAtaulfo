@@ -11,13 +11,13 @@ body {
 
 
 /* Inicio de Sección de Encabezado */
-a{
+.header a{
   text-decoration: none;
   color:white;
 }
 
 
-ul #der {
+.header ul #der {
   display: block;
   float: right;
   padding-top: 14px;
@@ -28,7 +28,7 @@ ul #der {
   color:white;
 }
 
-ul {
+.header ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -36,11 +36,11 @@ ul {
 
 }
 
-li {
+.header li {
   float: left;
 }
 
-li a, .dropbtn {
+.header li a, .dropbtn {
   display: inline-block;
   color: white;
   text-align: center;
@@ -48,13 +48,13 @@ li a, .dropbtn {
   text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+.header li a:hover, .dropdown:hover .dropbtn {
 }
 
-li .dropdown {
+.header li .dropdown {
   display:block;
 }
-li a:hover {
+.header li a:hover {
     background-color: rgb(185, 185, 185, 0.2);
     border-radius: 15px;
     transition: 1s;
@@ -91,7 +91,7 @@ li a:hover {
 }
 
 
-i {
+.header i {
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -104,7 +104,7 @@ i {
   color: white;
 }
 
-li a, .dropbtn2 {
+.headerli a, .dropbtn2 {
   display: inline-block;
   color: white;
   text-align: center;
@@ -112,13 +112,13 @@ li a, .dropbtn2 {
   text-decoration: none;
 }
 
-li a:hover, .dropdown2:hover .dropbtn2 {
+.header li a:hover, .dropdown2:hover .dropbtn2 {
 }
 
-li .dropdown2 {
+.header li .dropdown2 {
   display:block;
 }
-li a:hover {
+.header li a:hover {
     background-color: rgb(185, 185, 185, 0.2);
     border-radius: 15px;
     transition: 1s;
