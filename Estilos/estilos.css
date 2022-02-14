@@ -108,6 +108,70 @@ i {
   color: white;
 }
 
+li a, .dropbtn2 {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown2:hover .dropbtn2 {
+}
+
+li .dropdown2 {
+  display:block;
+}
+li a:hover {
+    background-color: rgb(185, 185, 185, 0.2);
+    border-radius: 15px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: rgb(185, 185, 185);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0, 0.2  );
+}
+
+.dropdown-content2 a {
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+
+}
+
+.dropdown-content2 a:hover {
+  background-color: rgb(162, 12, 0);
+  display: block;
+}
+
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+}
+
+
+i {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.dropdown2 i{
+  color: white;
+  float:right;
+}
+
+.dropdown2 {
+  color: white;
+}
+
 .aRoj {
   background-color: red;
   color: red;
