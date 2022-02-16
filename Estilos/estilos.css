@@ -245,6 +245,20 @@ i {
 /* Fin de Cuerpo de Página */
 
 /* Inicio de Pie de Página */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background-color: #444444;
+}
+
+
+
+/* Inicio de Pie de Página */
 #footer{
     display: block;
     margin-top: 4%;
@@ -259,7 +273,6 @@ i {
 
 #titulocontacto{
     background-color: #b70909;
-    height: 9%;
     width: 23%;
     margin-left: 2%;
     color: white;
@@ -283,7 +296,7 @@ i {
 }
 
 #info{
-    /*margin-left;*/
+    margin-left;
     color: white;
 }
 
@@ -313,7 +326,8 @@ i {
     padding-top: 4%;
     font-size: 75%;
     transition: 0.5s;
-    width: 44%;   
+    width: 44%;  
+    text-align: center;
 }
 
 #listadomenu li:hover{
@@ -327,7 +341,6 @@ i {
 
 #titulosecciones{
     background-color: #b70909;
-    height: 9%;
     width: 23%;
     margin-left: 33%;
     color: white;
@@ -338,5 +351,34 @@ i {
     float: right;
     display: block;
     width: 33%;
+}
+
+#titulolegal {
+    background-color: #b70909;
+    width: 23%;
+    margin-left: 66%;
+    color: white;
+    font-size: 125%;
+}
+#listalegal {
+    float: right;
+     width: 33%;
+}
+#listalegal li{
+    list-style: none;
+    color: white;
+    font-family: "Lucida Handwriting", "Lucida", Cursive;
+    padding-top: 4%;
+    font-size: 75%;
+    transition: 0.5s;
+    width: 44%;    
+    text-align: center;
+}
+#listalegal li:hover{
+    background-color: red;
+}
+#social i{
+    color: white;
+    font-size: 25px;
 }
 /* Fin de Pie de Página */
