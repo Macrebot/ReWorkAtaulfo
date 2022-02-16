@@ -187,6 +187,7 @@ i {
 #body {
     width: 100%;
     position: relative;
+    text-decoration: none;
 }
 
 /* Comienzo de los estilos para el navegador izquierdo */
@@ -222,6 +223,11 @@ i {
 
 .seccion {
   position: relative;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 #accesoYedra {
@@ -230,14 +236,11 @@ i {
 
 #botony {
   background-color: #365aa8;
-  float: right;
+  color: white;
+  padding: 1%;
+  border: black solid 1px;
 }
 
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
 
 /* Fin de Cuerpo de Página */
 
@@ -280,7 +283,7 @@ i {
 }
 
 #info{
-    margin-left;
+    /*margin-left;*/
     color: white;
 }
 
