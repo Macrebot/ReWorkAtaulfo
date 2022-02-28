@@ -465,6 +465,13 @@ naV ul li:hover > ul{
   padding-bottom: 10%;
 }
 
+#espacio {
+  background-color: white;
+}
+#espacio br {
+  height: 100px;
+}
+
 #accesoYedra {
   background-color: #e0993b;
 }
