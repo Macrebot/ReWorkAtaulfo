@@ -288,6 +288,9 @@ naV ul li:hover > ul{
 /* Fin de Sección de Encabezado */
 
 /* Inicio de Carrusel de Noticias */ 
+#nav {
+  padding-top: 20%;
+}
 .slide {
 	position: relative;
 	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
@@ -410,7 +413,7 @@ naV ul li:hover > ul{
 }
 
 .slide-text{
-	color: #fff;
+	color: #000;
 	font-size: 40px;
 	position: absolute;
 	top: 80%;
