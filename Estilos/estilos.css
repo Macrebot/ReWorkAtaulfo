@@ -7,6 +7,7 @@ body {
     padding: 0;
     font-family: Arial;
     background-color: #424242;
+    color: white;
 }
 
 
@@ -409,7 +410,7 @@ naV ul li:hover > ul{
 }
 
 .slide-text{
-	color: #000000;
+	color: #fff;
 	font-size: 40px;
 	position: absolute;
 	top: 80%;
