@@ -73,11 +73,37 @@ naV ul li:hover > ul{
 }
 
 
+.naV ul ul #A{
+  position: absolute;
+  top: -0px;
+  left: 300px;
+}
+.naV ul ul #B{
+  position: absolute;
+  top: -0px;
+  left: 300px;
+}
+.naV ul ul #C{
+  position: absolute;
+  top: -0px;
+  left: 300px;
+}
+.naV ul ul #D{
+  position: absolute;
+  top: -0px;
+  left: 300px;
+}
 .naV ul ul #E{
   position: absolute;
   top: -0px;
   left: 300px;
 }
+.naV ul ul #F{
+  position: absolute;
+  top: -0px;
+  left: 300px;
+}
+
 /* .header a{
   text-decoration: none;
   color:white;
@@ -264,6 +290,134 @@ naV ul li:hover > ul{
 #nav {
     margin-top : 1000px;
 }
+.slide {
+	position: relative;
+	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+	margin-top: 26px;
+}
+
+.slide-inner {
+	position: relative;
+	overflow: hidden;
+	width: auto;
+	height: calc( 300px + 20em);
+}
+
+.slide-open:checked + .slide-item {
+	position: static;
+	opacity: 100;
+}
+
+.slide-item {
+	position: absolute;
+	opacity: 0;
+	-webkit-transition: opacity 0.6s ease-out;
+	transition: opacity 0.6s ease-out;
+}
+
+.slide-item img {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+.slide-control {
+	background: rgba(0, 0, 0, 0.28);
+	border-radius: 50%;
+	color: #fff;
+	cursor: pointer;
+	display: none;
+	font-size: 40px;
+	height: 40px;
+	line-height: 35px;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translate(0, -50%);
+	cursor: pointer;
+	-ms-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+	text-align: center;
+	width: 40px;
+	z-index: 10;
+}
+
+.slide-control.prev {
+	left: 2%;
+}
+
+.slide-control.next {
+	right: 2%;
+}
+
+.slide-control:hover {
+	background: rgba(0, 0, 0, 0.8);
+	color: #aaaaaa;
+}
+
+#slide-1:checked ~ .control-1,
+#slide-2:checked ~ .control-2,
+#slide-3:checked ~ .control-3 {
+	display: block;
+}
+
+.slide-indicador {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	bottom: 2%;
+	left: 0;
+	right: 0;
+	text-align: center;
+	z-index: 10;
+}
+
+.slide-indicador li {
+	display: inline-block;
+	margin: 0 5px;
+}
+
+.slide-circulo {
+	color: #828282;
+	cursor: pointer;
+	display: block;
+	font-size: 35px;
+}
+
+.slide-circulo:hover {
+	color: #aaaaaa;
+}
+
+#slide-1:checked ~ .control-1 ~ .slide-indicador 
+ 	li:nth-child(1) .slide-circulo,
+#slide-2:checked ~ .control-2 ~ .slide-indicador 
+ 	 li:nth-child(2) .slide-circulo,
+#slide-3:checked ~ .control-3 ~ .slide-indicador 
+ 	 li:nth-child(3) .slide-circulo {
+	color: #428bca;
+}
+
+#titulocarrusel {
+	width: 100%;
+	position: absolute;
+	padding: 0px;
+	margin: 0px auto;
+	text-align: center;
+	font-size: 27px;
+	color: rgba(255, 255, 255, 1);
+	font-family: 'Open Sans', sans-serif;
+	z-index: 9999;
+	text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), 
+ 	    -1px 0px 2px rgba(255, 255, 255, 0);
+}
+
+.slide-text{
+	color: #000000;
+	font-size: 40px;
+	position: absolute;
+	top: 80%;
+	left: 2%;
+}
 /* Fin de Carrusel de Noticias */
 
 /* Incio de Cuerpo de Página */
@@ -271,6 +425,7 @@ naV ul li:hover > ul{
 #body {
     width: 100%;
     position: relative;
+    text-decoration: none;
 }
 
 /* Comienzo de los estilos para el navegador izquierdo */
@@ -306,6 +461,11 @@ naV ul li:hover > ul{
 
 .seccion {
   position: relative;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 #accesoYedra {
@@ -314,16 +474,27 @@ naV ul li:hover > ul{
 
 #botony {
   background-color: #365aa8;
-  float: right;
+  color: white;
+  padding: 1%;
+  border: black solid 1px;
 }
 
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
 
 /* Fin de Cuerpo de Página */
+
+/* Inicio de Pie de Página */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background-color: #444444;
+}
+
+
 
 /* Inicio de Pie de Página */
 #footer{
@@ -340,7 +511,6 @@ naV ul li:hover > ul{
 
 #titulocontacto{
     background-color: #b70909;
-    height: 9%;
     width: 23%;
     margin-left: 2%;
     color: white;
@@ -393,7 +563,8 @@ naV ul li:hover > ul{
     padding-top: 4%;
     font-size: 75%;
     transition: 0.5s;
-    width: 44%;   
+    width: 44%;  
+    text-align: center;
 }
 
 #listadomenu li:hover{
@@ -407,7 +578,6 @@ naV ul li:hover > ul{
 
 #titulosecciones{
     background-color: #b70909;
-    height: 9%;
     width: 23%;
     margin-left: 33%;
     color: white;
@@ -418,5 +588,34 @@ naV ul li:hover > ul{
     float: right;
     display: block;
     width: 33%;
+}
+
+#titulolegal {
+    background-color: #b70909;
+    width: 23%;
+    margin-left: 66%;
+    color: white;
+    font-size: 125%;
+}
+#listalegal {
+    float: right;
+     width: 33%;
+}
+#listalegal li{
+    list-style: none;
+    color: white;
+    font-family: "Lucida Handwriting", "Lucida", Cursive;
+    padding-top: 4%;
+    font-size: 75%;
+    transition: 0.5s;
+    width: 44%;    
+    text-align: center;
+}
+#listalegal li:hover{
+    background-color: red;
+}
+#social i{
+    color: white;
+    font-size: 25px;
 }
 /* Fin de Pie de Página */

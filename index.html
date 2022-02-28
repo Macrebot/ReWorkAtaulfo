@@ -12,24 +12,24 @@
       <nav class="naV">
         <ul>
           <li><a href=""><i class="fa-solid fa-house-chimney"></i></a></li>
-          <li><a href="">Enseñanzas<i class="fa-solid fa-caret-down"></i></a>
+          <li><a href="">Enseñanzas   <i class="fa-solid fa-caret-down"></i></a>
             <ul>
-              <li><a href="">ESO</a>
-                <ul id="E">
+              <li><a href="">ESO   <i class="fa-solid fa-caret-right"></i></a>
+                <ul id="A">
                   <li><a href="">1º ESO</a></li>
                   <li><a href="">2º ESO</a></li>
                   <li><a href="">3º ESO</a></li>
                   <li><a href="">4º ESO</a></li>
                 </ul>
               </li>
-              <li><a href="">Bachillerato</a>
-                <ul>
+              <li><a href="">Bachillerato   <i class="fa-solid fa-caret-right"></i></a>
+                <ul id="B">
                   <li><a href="">1º Bachillerato</a></li>
                   <li><a href="">2º Bachillerato</a></li>
                 </ul>
               </li>
-              <li><a href="">Formación Profesional</a>
-                <ul>
+              <li><a href="">Formación Profesional   <i class="fa-solid fa-caret-right"></i></a>
+                <ul id="C">
                   <li><a href="">FPB Cocina y Restauracion</a></li>
                   <li><a href="">CFGM Sistemas Microinformáticos y Redes</a></li>
                   <li><a href="">CFGS Desarrollo de Aplicaciones Multiplataforma</a></li>
@@ -39,11 +39,11 @@
               <li><a href="">Programaciones Abreviadas</a></li>
             </ul>
           </li>
-          <li><a href="">Servicios y Actividades<i class="fa-solid fa-caret-down"></i></a>
+          <li><a href="">Servicios y Actividades   <i class="fa-solid fa-caret-down"></i></a>
             <ul>
               <li><a href="">Ataúlfo Argenta</a></li>
-              <li><a href="">Actividades complementarias y extraescolares</a>
-                <ul>
+              <li><a href="">Actividades complementarias y extraescolares   <i class="fa-solid fa-caret-right"></i></a>
+                <ul id="D">
                   <li id="SO"><a href="">Proyecto Siglo de Oro</a></li>
                 </ul>
               </li>
@@ -51,13 +51,13 @@
               <li><a href="">Cincuentenario IES Atualfo Argenta</a></li>
             </ul>
           </li>
-          <li><a href="">Secretaría<i class="fa-solid fa-caret-down"></i></a>
+          <li><a href="">Secretaría   <i class="fa-solid fa-caret-down"></i></a>
             <ul>
               <li><a href="">Comunicados / Avisos</a></li>
             </ul>
           </li>
-          <li><a href="">Planes y Proyectos<i class="fa-solid fa-caret-down"></i></a>
-            <ul>
+          <li><a href="">Planes y Proyectos   <i class="fa-solid fa-caret-down"></i></a>
+            <ul >
               <li><a href="">Bilingüismo</a></li>
               <li><a href="">Biblioteca</a></li>
               <li><a href="">Convivencia</a></li>
@@ -65,18 +65,18 @@
               <li><a href="">Sostenibilidad</a></li>
               <li><a href="">Plan TIC</a></li>
               <li><a href="">Revista Centro</a></li>
-              <li><a href="">Procedimiento Evaluación y Acreditación de Competencias Profesionales</a>
-                <ul>
+              <li><a href="">Procedimiento Evaluación y Acreditación de Competencias Profesionales   <i class="fa-solid fa-caret-right"></i></a>
+                <ul id="E">
                   <li id="L"><a href="">PEACP</a></li>
                 </ul>
               </li>
             </ul>
           </li>
           <li><a href="">Erasmus</a></li>
-          <li><a href="">Comunidad</a>
+          <li><a href="">Comunidad   <i class="fa-solid fa-caret-down"></i></a>
             <ul>
-              <li><a href="">COVID</a>
-                <ul>
+              <li><a href="">COVID   <i class="fa-solid fa-caret-right"></i></a>
+                <ul id="F">
                   <li><a href="">Plan de contingencia Covid-19</a></li>
                   <li><a href="">Información Familias</a></li>
                   <li><a href="">Info Covid19</a></li>
@@ -195,11 +195,48 @@
 
     
     <div id="nav">
-
+	<div class="slide">
+				<div class="slide-inner">
+					<input class="slide-open" type="radio" id="slide-1" 
+				 	     name="slide" aria-hidden="true" hidden="" checked="checked">
+					<div class="slide-item">
+						<a href="http://iesataulfoargenta.es/wp/2022/02/02/dia-de-internet-segura-2022-educantabria/"><img src="noticia1.png"></a>
+						<label class="slide-text">Ataulfo Solidario</label>
+					</div>
+					<input class="slide-open" type="radio" id="slide-2" 
+				 	     name="slide" aria-hidden="true" hidden="">
+					<div class="slide-item">
+						<a href="http://iesataulfoargenta.es/wp/2017/01/17/olimpiada-filosofica/"><img src="noticia2.png"></a>
+						<label class="slide-text">Dia de internet seguro</label>
+					</div>
+					<input class="slide-open" type="radio" id="slide-3" 
+				 	     name="slide" aria-hidden="true" hidden="">
+					<div class="slide-item">
+						<a href="http://iesataulfoargenta.es/wp/2021/01/20/viii-olimpiada-filosofica-ies-ataulfo-argenta-2020-2021/"><img src="noticia3.png"></a>
+						<label class="slide-text">nose</label>
+					</div>
+					<label for="slide-3" class="slide-control prev control-1">‹</label>
+					<label for="slide-2" class="slide-control next control-1">›</label>
+					<label for="slide-1" class="slide-control prev control-2">‹</label>
+					<label for="slide-3" class="slide-control next control-2">›</label>
+					<label for="slide-2" class="slide-control prev control-3">‹</label>
+					<label for="slide-1" class="slide-control next control-3">›</label>
+					<ol class="slide-indicador">
+						<li>
+							<label for="slide-1" class="slide-circulo">•</label>
+						</li>
+						<li>
+							<label for="slide-2" class="slide-circulo">•</label>
+						</li>
+						<li>
+							<label for="slide-3" class="slide-circulo">•</label>
+						</li>
+					</ol>
+				</div>
+			</div>
     </div>
 
     <div id="body">
-      <p>Esto es un parrafo</p>
         <!--
           <div id="navIzq">
               <ul>
@@ -212,14 +249,20 @@
           </div>
         -->
         <div id="accesoYedra" class="seccion">
-          <div>
-            Accede a nuestra plataforma de Yedra.
-          </div>
+          <p>Visite nuestra página de Yedra.</p><br>
           <a href="#" id="botony">Accede a Yedra</a>
+        </div>
+
+        <div class="seccion">
+
         </div>
     </div>
 
+<<<<<<< HEAD
 	<div id="footer">
+=======
+		<div id="footer">
+>>>>>>> 4287cf1406eacbad2d4251e7f67513b932f7f544
 	
 		<div id="contacto">
 			<h1 id="titulocontacto">Contacto:</h1>
@@ -244,7 +287,25 @@
 				<li>MAPA DEL SITIO</li>
 				<li>NOTICIAS</li>
 			</ul>
+<<<<<<< HEAD
 	</div>
 </div>
+=======
+		</div>
+
+		<div id="legal">
+			<h1 id="titulolegal">Legal:</h1>
+			<ul id="listalegal">
+				<li><a href="política-de-cookies.html">Política de cookies</a></li>
+				<li>Política de privacidad</li>
+			</ul>
+		</div>
+
+		<div id="social">
+			<i class="fa-brands fa-instagram"></i>
+		</div>
+</div>
+
+>>>>>>> 4287cf1406eacbad2d4251e7f67513b932f7f544
 </body>
 </html>
