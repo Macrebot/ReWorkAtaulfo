@@ -286,10 +286,7 @@ naV ul li:hover > ul{
 
 /* Fin de Sección de Encabezado */
 
-/* Inicio de Carrusel de Noticias */
-#nav {
-    margin-top : 1000px;
-}
+/* Inicio de Carrusel de Noticias */ 
 .slide {
 	position: relative;
 	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
