@@ -24,6 +24,11 @@ body {
   color: white;
 }
 
+.lineA {
+  background-color: red;
+  font-size: 15px;
+}
+
 
 .naV {
   height: 60px;
@@ -50,10 +55,12 @@ body {
   text-decoration: none;
   line-height: 60px;
   font-size: 15px;
+  transition: 0.5s;
 }
 
 .naV ul li a:hover {
   background-color: rgb(245, 29, 29);
+  border-radius: 16px;
 }
 
 .naV ul ul{
