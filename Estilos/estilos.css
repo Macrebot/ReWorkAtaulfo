@@ -7,6 +7,7 @@ body {
     padding: 0;
     font-family: Arial;
     background-color: #424242;
+    color: white;
 }
 
 
@@ -287,6 +288,9 @@ naV ul li:hover > ul{
 /* Fin de Sección de Encabezado */
 
 /* Inicio de Carrusel de Noticias */ 
+#nav {
+  padding-top: 20%;
+}
 .slide {
 	position: relative;
 	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
@@ -409,7 +413,7 @@ naV ul li:hover > ul{
 }
 
 .slide-text{
-	color: #000000;
+	color: #000;
 	font-size: 40px;
 	position: absolute;
 	top: 80%;
@@ -487,83 +491,60 @@ naV ul li:hover > ul{
 /* Fin de Cuerpo de Página */
 
 /* Inicio de Pie de Página */
-* {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial;
-    background-color: #444444;
-}
-
-
-
-/* Inicio de Pie de Página */
 #footer{
     display: block;
     margin-top: 4%;
+    background-color: #424242;
 }
+
+/* Inicio de CONTACTO */
 
 #contacto{
     display: block;
     float: left;
     width: 33%;
-    margin-top: 3%;
+    background-color: #424242;
 }
 
 #titulocontacto{
     background-color: #b70909;
-    width: 23%;
+    width: 63%;
     margin-left: 2%;
     color: white;
     font-size: 125%;
-
+    margin-top: 1%;
 }
 
-#tituloinfo{
-    width: 12%;
-    margin-left: 4%;
-    font-size: 100%;
-    color: white;
-    text-decoration: underline;
-
-}
 #infocontacto{
     margin-left: 6%;
-    font-size:  80%;
-    color: white;
-
-}
-
-#info{
+    font-size:  95%;
     color: white;
 }
 
-#maps{
+/* Fin de apartado CONTACTO */
+
+/* Inicio de SECCIONES de la página */
+#secciones{
     display: block;
-    float: left;
-    width: 66%;
 }
 
-#titulomap{
+#titulosecciones{
     background-color: #b70909;
-    height: 9%;
-    width: 24%;
-    margin-left: 2%;
+    width: 23%;
+    margin-left: 33%;
     color: white;
     font-size: 125%;
+    margin-top: -3%;
 }
 
 #listadomenu {
     float: left;
-     width: 34%;
+    width: 34%;
+    background-color: #424242;
 }
 #listadomenu li{
     list-style: none;
     color: white;
-    font-family: "Lucida Handwriting", "Lucida", Cursive;
     padding-top: 4%;
     font-size: 75%;
     transition: 0.5s;
@@ -575,23 +556,12 @@ body {
     background-color: red;
 }
 
-#secciones{
-    display: block;
-    margin-top: 3%;
-}
+/* Fin del apartado SECCIONES de la página */
 
-#titulosecciones{
-    background-color: #b70909;
-    width: 23%;
-    margin-left: 33%;
-    color: white;
-    font-size: 125%;
-}
+/* Inicio de apartado LEGAL */
 
-#eliminar {
-    float: right;
-    display: block;
-    width: 33%;
+#legal {
+    margin-top: -2%;
 }
 
 #titulolegal {
@@ -600,26 +570,149 @@ body {
     margin-left: 66%;
     color: white;
     font-size: 125%;
+    margin-top: -2.5%;
 }
+
 #listalegal {
     float: right;
-     width: 33%;
+    width: 33%;
 }
+
 #listalegal li{
     list-style: none;
-    color: white;
-    font-family: "Lucida Handwriting", "Lucida", Cursive;
     padding-top: 4%;
-    font-size: 75%;
+    font-size: 85%;
     transition: 0.5s;
     width: 44%;    
     text-align: center;
 }
+
+#listalegal a{
+    color: white;
+}
+
 #listalegal li:hover{
     background-color: red;
 }
-#social i{
-    color: white;
-    font-size: 25px;
+
+/* Fin del apartado LEGAL */
+
+/* Redes sociales */
+
+#social{
+    margin-left: -55%;
+    margin-top: -5%;
+    right: 0;
+    top: 70%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
 }
+
+.icon {
+    color: white;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+}
+
+.icon-facebook {
+    background: #2E406E;
+}
+
+.icon-twitter {
+    background: #339DC5;
+}
+
+.icon-youtube{
+    background: #E83028;
+}
+
+.icon-instagram {
+    background: #3F60A5;
+}
+
+.icon-pinterest {
+    background:  #b30000;
+}
+
+.icon:first-child {
+    border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+    border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 1.42);
+}
+ /* Fin de Redes Sociales */ 
+
+/* Pólitica de cookies */
+#intro{
+    display: block;
+    background-color: white;
+    margin-top: -1%;
+}
+
+#link {
+	color: #940000;
+}
+/* Fin de pólitica de cookies */
+
+/* Más información de cookies */
+#all{
+    display: block;
+    background-color: white;
+    margin-top: -1%;
+}
+
+#grantitulo {
+    display: block;
+    font-size: 170%;
+    margin-left: 20%;
+    margin-right: 35%;
+}
+
+#titulo {
+    display: block;
+    font-size: 165%;
+    margin-left: 20%;
+    margin-right: 35%;
+}
+
+#texto {
+    display: block;
+    font-size: 98%;
+    margin-left: 20%;
+    margin-right: 35%;
+}
+
+#listacookies {
+    display: block;
+    font-size: 97%;
+    margin-left: 20%;
+    margin-right: 35%;
+}
+/* Fin de "Más información de cookies" */
+
+/* Texto final */
+#infofinal {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 106%;
+}
+#infofinal a{
+    color: white;
+    text-decoration: underline;
+}
+/* Fin del Texto Final */
+
 /* Fin de Pie de Página */
