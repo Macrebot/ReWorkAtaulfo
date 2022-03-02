@@ -7,11 +7,125 @@ body {
     padding: 0;
     font-family: Arial;
     background-color: #424242;
+    color: white;
 }
 
 
 /* Inicio de Sección de Encabezado */
-.header a{
+
+
+.header {
+  width: 100%;
+  height: 50px;
+  font-size: 15px;
+}
+
+.naV i{
+  color: white;
+}
+
+.naV ul .lineA {
+  background-color: rgb(66, 66, 66, 0.0);
+  color: rgb(66, 66, 66, 0.0);
+  font-size: 20px;
+}
+.naV ul .lineB {
+  background-color: rgb(245, 29, 29);
+  color: rgb(209, 30, 30, 0.0);
+  font-size: 5px;
+}
+.lineC {
+  background-color: rgb(66, 66, 66, 0.0);
+  color: rgb(66, 66, 66, 0.0);
+  font-size: 5px;
+}
+
+
+.naV {
+  padding-top: 10px;
+  height: 80px;
+  background-color: rgb(66, 66, 66, 0.2);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+.naV ul{
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.naV ul li {
+  background-color: rgb(66, 66, 66);
+  position: relative;
+  list-style: none;
+  display: inline-block;
+}
+
+.naV ul li a {
+  display: block;
+  padding: 0 15px;
+  color:white;
+  text-decoration: none;
+  line-height: 60px;
+  font-size: 15px;
+  transition: 0.5s;
+}
+
+.naV ul li a:hover {
+  background-color: rgb(245, 29, 29);
+  border-radius: 16px;
+}
+
+.naV ul ul{
+  position: absolute;
+  display: none;
+}
+naV ul li:hover > ul{
+  display: block;
+}
+
+.naV ul ul li{
+  width: 300px;
+  float: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: list-item;
+  position: relative;
+  background-color:  rgb(66, 66, 66,);
+}
+
+
+.naV ul ul #A{
+  position: absolute;
+  top: -0px;
+  left: 300px;
+}
+.naV ul ul #B{
+  position: absolute;
+  top: -0px;
+  left: 300px;
+}
+.naV ul ul #C{
+  position: absolute;
+  top: -0px;
+  left: 300px;
+}
+.naV ul ul #D{
+  position: absolute;
+  top: -0px;
+  left: 300px;
+}
+.naV ul ul #E{
+  position: absolute;
+  top: -0px;
+  left: 300px;
+}
+.naV ul ul #F{
+  position: absolute;
+  top: -0px;
+  left: 300px;
+}
+
+/* .header a{
   text-decoration: none;
   color:white;
 }
@@ -40,7 +154,7 @@ body {
   float: left;
 }
 
-.header li a, .dropbtn {
+#horiN li a{
   display: inline-block;
   color: white;
   text-align: center;
@@ -76,9 +190,12 @@ body {
 .dropdown-content a {
   padding: 12px 16px;
   text-decoration: none;
-  display: block;
   text-align: left;
 
+}
+
+.dropbtn2 a:hover {
+  background-color: #b70909;
 }
 
 .dropdown-content a:hover {
@@ -90,6 +207,14 @@ body {
   display: block;
 }
 
+.dropdown2:hover .dropbtn2 {
+  background-color: #b70909;
+}
+
+.dropbtn2 {
+  width: 100%;
+  text-align: start;
+}
 
 .header i {
   padding-left: 10px;
@@ -98,6 +223,8 @@ body {
 .dropdown i{
   color: white;
   float:right;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .dropdown {
@@ -130,11 +257,18 @@ body {
 }
 
 .dropdown-content2 {
-  display: none;
   position: absolute;
-  background-color: rgb(185, 185, 185);
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0, 0.2  );
+    display: none;
+    left: 100%;
+    top: 0;
+    width: 100%;
+    background-color: rgb(185, 185, 185);
+    float:inherit;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0, 0.2  );
+}
+
+.dropdown2 a:hover .dropdown-content2{
+  display: block;
 }
 
 .dropdown-content2 a {
@@ -154,14 +288,11 @@ body {
   display: block;
 }
 
-
-i {
-  padding-left: 10px;
-  padding-right: 10px;
-}
 .dropdown2 i{
   color: white;
   float:right;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .dropdown2 {
@@ -172,13 +303,141 @@ i {
   background-color: red;
   color: red;
   font-size: 4px;
-}
+}*/
 
 /* Fin de Sección de Encabezado */
 
-/* Inicio de Carrusel de Noticias */
+/* Inicio de Carrusel de Noticias */ 
 #nav {
-    
+  padding-top: 20%;
+}
+.slide {
+	position: relative;
+	box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+	margin-top: 26px;
+}
+
+.slide-inner {
+	position: relative;
+	overflow: hidden;
+	width: auto;
+	height: calc( 300px + 20em);
+}
+
+.slide-open:checked + .slide-item {
+	position: static;
+	opacity: 100;
+}
+
+.slide-item {
+	position: absolute;
+	opacity: 0;
+	-webkit-transition: opacity 0.6s ease-out;
+	transition: opacity 0.6s ease-out;
+}
+
+.slide-item img {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+.slide-control {
+	background: rgba(0, 0, 0, 0.28);
+	border-radius: 50%;
+	color: #fff;
+	cursor: pointer;
+	display: none;
+	font-size: 40px;
+	height: 40px;
+	line-height: 35px;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translate(0, -50%);
+	cursor: pointer;
+	-ms-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+	text-align: center;
+	width: 40px;
+	z-index: 10;
+}
+
+.slide-control.prev {
+	left: 2%;
+}
+
+.slide-control.next {
+	right: 2%;
+}
+
+.slide-control:hover {
+	background: rgba(0, 0, 0, 0.8);
+	color: #aaaaaa;
+}
+
+#slide-1:checked ~ .control-1,
+#slide-2:checked ~ .control-2,
+#slide-3:checked ~ .control-3 {
+	display: block;
+}
+
+.slide-indicador {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	bottom: 2%;
+	left: 0;
+	right: 0;
+	text-align: center;
+	z-index: 10;
+}
+
+.slide-indicador li {
+	display: inline-block;
+	margin: 0 5px;
+}
+
+.slide-circulo {
+	color: #828282;
+	cursor: pointer;
+	display: block;
+	font-size: 35px;
+}
+
+.slide-circulo:hover {
+	color: #aaaaaa;
+}
+
+#slide-1:checked ~ .control-1 ~ .slide-indicador 
+ 	li:nth-child(1) .slide-circulo,
+#slide-2:checked ~ .control-2 ~ .slide-indicador 
+ 	 li:nth-child(2) .slide-circulo,
+#slide-3:checked ~ .control-3 ~ .slide-indicador 
+ 	 li:nth-child(3) .slide-circulo {
+	color: #428bca;
+}
+
+#titulocarrusel {
+	width: 100%;
+	position: absolute;
+	padding: 0px;
+	margin: 0px auto;
+	text-align: center;
+	font-size: 27px;
+	color: rgba(255, 255, 255, 1);
+	font-family: 'Open Sans', sans-serif;
+	z-index: 9999;
+	text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), 
+ 	    -1px 0px 2px rgba(255, 255, 255, 0);
+}
+
+.slide-text{
+	color: #000;
+	font-size: 40px;
+	position: absolute;
+	top: 80%;
+	left: 2%;
 }
 /* Fin de Carrusel de Noticias */
 
@@ -233,6 +492,13 @@ i {
   padding-bottom: 10%;
 }
 
+#espacio {
+  background-color: white;
+}
+#espacio br {
+  height: 100px;
+}
+
 #accesoYedra {
   background-color: #e0993b;
 }
@@ -251,95 +517,225 @@ i {
 #footer{
     display: block;
     margin-top: 4%;
+    background-color: #424242;
 }
+
+/* Inicio de CONTACTO */
 
 #contacto{
     display: block;
     float: left;
     width: 33%;
-    margin-top: 3%;
+    background-color: #424242;
 }
 
 #titulocontacto{
     background-color: #b70909;
-    height: 9%;
-    width: 23%;
+    width: 63%;
     margin-left: 2%;
     color: white;
     font-size: 125%;
-
+    margin-top: 1%;
 }
 
-#tituloinfo{
-    width: 12%;
-    margin-left: 4%;
-    font-size: 100%;
-    color: white;
-    text-decoration: underline;
-
-}
 #infocontacto{
     margin-left: 6%;
-    font-size:  80%;
-    color: white;
-
-}
-
-#info{
-    /*margin-left;*/
+    font-size:  95%;
     color: white;
 }
 
-#maps{
+/* Fin de apartado CONTACTO */
+
+/* Inicio de SECCIONES de la página */
+#secciones{
     display: block;
-    float: left;
-    width: 66%;
 }
 
-#titulomap{
+#titulosecciones{
     background-color: #b70909;
-    height: 9%;
-    width: 24%;
-    margin-left: 2%;
+    width: 23%;
+    margin-left: 33%;
     color: white;
     font-size: 125%;
+    margin-top: -3%;
 }
 
 #listadomenu {
     float: left;
-     width: 34%;
+    width: 34%;
+    background-color: #424242;
 }
 #listadomenu li{
     list-style: none;
     color: white;
-    font-family: "Lucida Handwriting", "Lucida", Cursive;
     padding-top: 4%;
     font-size: 75%;
     transition: 0.5s;
-    width: 44%;   
+    width: 44%;  
+    text-align: center;
 }
 
 #listadomenu li:hover{
     background-color: red;
 }
 
-#secciones{
-    display: block;
-    margin-top: 3%;
+/* Fin del apartado SECCIONES de la página */
+
+/* Inicio de apartado LEGAL */
+
+#legal {
+    margin-top: -2%;
 }
 
-#titulosecciones{
+#titulolegal {
     background-color: #b70909;
-    height: 9%;
     width: 23%;
-    margin-left: 33%;
+    margin-left: 66%;
     color: white;
     font-size: 125%;
+    margin-top: -2.5%;
 }
 
-#eliminar {
+#listalegal {
     float: right;
-    display: block;
     width: 33%;
 }
+
+#listalegal li{
+    list-style: none;
+    padding-top: 4%;
+    font-size: 85%;
+    transition: 0.5s;
+    width: 44%;    
+    text-align: center;
+}
+
+#listalegal a{
+    color: white;
+}
+
+#listalegal li:hover{
+    background-color: red;
+}
+
+/* Fin del apartado LEGAL */
+
+/* Redes sociales */
+
+#social{
+    margin-left: -55%;
+    margin-top: -5%;
+    right: 0;
+    top: 70%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+
+.icon {
+    color: white;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+}
+
+.icon-facebook {
+    background: #2E406E;
+}
+
+.icon-twitter {
+    background: #339DC5;
+}
+
+.icon-youtube{
+    background: #E83028;
+}
+
+.icon-instagram {
+    background: #3F60A5;
+}
+
+.icon-pinterest {
+    background:  #b30000;
+}
+
+.icon:first-child {
+    border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+    border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 1.42);
+}
+ /* Fin de Redes Sociales */ 
+
+/* Pólitica de cookies */
+#intro{
+    display: block;
+    background-color: white;
+    margin-top: -1%;
+}
+
+#link {
+	color: #940000;
+}
+/* Fin de pólitica de cookies */
+
+/* Más información de cookies */
+#all{
+    display: block;
+    background-color: white;
+    margin-top: -1%;
+}
+
+#grantitulo {
+    display: block;
+    font-size: 170%;
+    margin-left: 20%;
+    margin-right: 35%;
+}
+
+#titulo {
+    display: block;
+    font-size: 165%;
+    margin-left: 20%;
+    margin-right: 35%;
+}
+
+#texto {
+    display: block;
+    font-size: 98%;
+    margin-left: 20%;
+    margin-right: 35%;
+}
+
+#listacookies {
+    display: block;
+    font-size: 97%;
+    margin-left: 20%;
+    margin-right: 35%;
+}
+/* Fin de "Más información de cookies" */
+
+/* Texto final */
+#infofinal {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 106%;
+}
+#infofinal a{
+    color: white;
+    text-decoration: underline;
+}
+/* Fin del Texto Final */
+
 /* Fin de Pie de Página */
