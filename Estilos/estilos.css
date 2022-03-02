@@ -24,14 +24,26 @@ body {
   color: white;
 }
 
-.lineA {
-  color: rgb(66, 66, 66, 0.2);
-  font-size: 15px;
+.naV ul .lineA {
+  background-color: rgb(66, 66, 66, 0.0);
+  color: rgb(66, 66, 66, 0.0);
+  font-size: 20px;
+}
+.naV ul .lineB {
+  background-color: rgb(245, 29, 29);
+  color: rgb(209, 30, 30, 0.0);
+  font-size: 5px;
+}
+.lineC {
+  background-color: rgb(66, 66, 66, 0.0);
+  color: rgb(66, 66, 66, 0.0);
+  font-size: 5px;
 }
 
 
 .naV {
-  height: 60px;
+  padding-top: 10px;
+  height: 80px;
   background-color: rgb(66, 66, 66, 0.2);
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 }
@@ -42,7 +54,7 @@ body {
 }
 
 .naV ul li {
-  background-color: rgb(66, 66, 66, 0.2);
+  background-color: rgb(66, 66, 66);
   position: relative;
   list-style: none;
   display: inline-block;
@@ -66,7 +78,6 @@ body {
 .naV ul ul{
   position: absolute;
   display: none;
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 }
 naV ul li:hover > ul{
   display: block;
@@ -75,6 +86,8 @@ naV ul li:hover > ul{
 .naV ul ul li{
   width: 300px;
   float: none;
+  padding-left: 10px;
+  padding-right: 10px;
   display: list-item;
   position: relative;
   background-color:  rgb(66, 66, 66,);
