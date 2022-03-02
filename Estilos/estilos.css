@@ -40,13 +40,17 @@ body {
   font-size: 5px;
 }
 
-
+#der {
+  padding-left: 150px;
+}
 .naV {
   padding-top: 10px;
   height: 80px;
   background-color: rgb(66, 66, 66, 0.2);
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  position: absolute;
 }
+
 .naV ul{
   padding: 0;
   margin: 0;
@@ -90,7 +94,7 @@ naV ul li:hover > ul{
   padding-right: 10px;
   display: list-item;
   position: relative;
-  background-color:  rgb(66, 66, 66,);
+  background-color:  rgb(66, 66, 66);
 }
 
 
@@ -123,6 +127,20 @@ naV ul li:hover > ul{
   position: absolute;
   top: -0px;
   left: 300px;
+}
+
+
+#icon0 {
+  padding-left: 10px;
+}
+
+.buscaR {
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(66, 66, 66);
+  outline: none;
+  width: 200px;
+  height: 30px;
 }
 
 /* .header a{
