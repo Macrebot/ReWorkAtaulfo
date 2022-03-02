@@ -187,7 +187,10 @@ i {
 #body {
     width: 100%;
     position: relative;
-    text-decoration: none;
+}
+
+#body a {
+  text-decoration: none;
 }
 
 /* Comienzo de los estilos para el navegador izquierdo */
