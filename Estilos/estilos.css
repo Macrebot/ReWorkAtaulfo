@@ -464,7 +464,10 @@ naV ul li:hover > ul{
 #body {
     width: 100%;
     position: relative;
-    text-decoration: none;
+}
+
+#body a {
+  text-decoration: none;
 }
 
 /* Comienzo de los estilos para el navegador izquierdo */
@@ -550,7 +553,7 @@ naV ul li:hover > ul{
     margin-left: 2%;
     color: white;
     font-size: 125%;
-    margin-top: 1%;
+    margin-top: 0%;
 }
 
 #infocontacto{
