@@ -289,38 +289,8 @@ naV ul li:hover > ul{
 
 #body a {
   text-decoration: none;
+  border-radius: 20px
 }
-
-/* Comienzo de los estilos para el navegador izquierdo */
-/*
-#navIzq {
-    margin-left: 0;
-    position: fixed;
-    float: left;
-    top: 40%;
-    width: 2%; *//* Relleno horizontal de los enlaces *//*
-    text-align: center;
-}
-
-#navIzq ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-#navIzq a {
-    display: block;
-    text-decoration: none;
-    color: white;
-    background-color: black;
-    padding: 20%; *//* Relleno vertical de los enlaces *//*
-    transition: 0.5s;
-}
-
-#navIzq a:hover {
-    background-color: #aca9a9;
-}
-*//* Fin de los estilos para el navegador izquierdo */
 
 .seccion {
   position: relative;
@@ -333,13 +303,11 @@ naV ul li:hover > ul{
 
 #espacio {
   background-color: white;
-}
-#espacio br {
-  height: 100px;
+  padding-bottom: 10%;
 }
 
 #accesoYedra {
-  background-color: #e0993b;
+  background-color: #c43434;
 }
 
 #botony {
@@ -347,6 +315,12 @@ naV ul li:hover > ul{
   color: white;
   padding: 1%;
   border: black solid 1px;
+  transition: 0.5s;
+}
+
+#botony:hover {
+  background-color: #6b7da3;
+
 }
 
 
